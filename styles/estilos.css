@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	max-width: 100%;
+	width: 100%;
+}
+
+/* cabezera */
+
+h1{
+	font-family: Marmelad;
+	font-size: 5vh;
+	text-align: left;
+	position: absolute;
+
+}
+
+
+header h2{
+	text-align: center;
+	height: 5vh;
+	background: black;
+	color: #ffff;
+	font-size: 4vh;
+
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+
+/*imagen*/
+.chicos {
+		width: 100% ;
+		height: 50vh ;
+		display: block;
+
+}
+
+.presionado{
+	text-decoration: underline;
+}
+.logo {
+	position: absolute;
+	right: 15vh;
+	height: 15vh;
+	bottom: 43vh;
+
+
+}
+
+/* cuerpo */
+
+.segundaParte{
+	display: flex;
+
+}
+
+
+
+li{
+	list-style:  none;
+}
+
+h3{
+	font-size: 2vh;
+	font-style:italic;
+}
+
+.informacion {
+	width: 75%;
+	padding: 20px;
+}
+
+.informacion h3{
+	padding: 20px 0px 0px 0px;
+}
+
+.correo{
+	text-decoration:none;
+	background: #ffff;
+	color: #005185;
+}
+
+.navegador a{
+	display: block;
+	width: 25%;
+	padding: 5vh 15vh;
+	
+}
+
+
+.informacion p{
+	margin: 20px 0px 0px 50px;
+	line-height:20px;
+
+}

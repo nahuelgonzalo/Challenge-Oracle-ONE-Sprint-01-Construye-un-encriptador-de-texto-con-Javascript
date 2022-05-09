@@ -3,18 +3,49 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="wiewport" content="width=device-width,initial-scale=1">
-	<title>Home</title>
+	<title>Encriptador</title>
 	<link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/estilos.css">
 </head>
 <body>
 	<header>
-	
+		<img src="images/logo.png" alt="logo-alura">
 	</header>
+	<main>
+		<section>
+			<input type="text" placeholder="Ingrese texto a codificar" onfocus="this.placeholder=''" onblur="this.placeholder='Ingrese texto a codificar'" class="textoACodificar" id="campo" pattern="^[a-z]+$">
 	
-	<article>
+			<div>
+				<p>!Solo letras minúsculas y sin acentos</p>
+			</div>
 
+			<div class="botones">
+				<button id="encriptar" onclick="validar()">Encriptar</button>
+				<button id="desencriptar">Desencriptar</button>
+			</div>
+		</section>
+		
+		<aside>
+			
+			<div class="sinTexto">
+				<img src="images/Muñeco.png" >
+				<h3>Ningún mensaje fue encontrado</p>
+				<p>Ingrese el texto que desea encriptar o desencriptar</p>
+			</div>
+			<div class="conTexto">
+					<textarea class="textoCodificado"></textarea>
+					<button id="copiar" class="copiar">copiar</button>
+			</div>	
+		</aside>
+		
 
-	</article>
+		
+	</main>
+	
+	<footer>
+		<p>© Nahuel Girón</p>
+	</footer>
+	
+	<script src="js/principal.js"></script>
 </body>
 </html>

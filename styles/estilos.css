@@ -6,96 +6,97 @@
 body{
 	max-width: 100%;
 	width: 100%;
+	overflow: hidden;
+	overflow-x: hidden;
 }
 
-/* cabezera */
-
-h1{
-	font-family: Marmelad;
-	font-size: 5vh;
-	text-align: left;
-	position: absolute;
-
+/* header*/
+header{
+	background-color: rgb(255, 247, 247);
+	height: 10vh;
 }
-
-
-header h2{
-	text-align: center;
+header img{
+	position: relative;
+	left: 10vh;
+	top: 2vh;
+}
+/*main*/
+main{
+	height: 80vh;
+	display:flex;
+}
+main button{
 	height: 5vh;
-	background: black;
-	color: #ffff;
-	font-size: 4vh;
-
+	width: 9vw;
+	border-radius: 2vh;
+}
+section{
+	width: 70vw;
 }
 
-a{
+section input{
+	text-align: center;
+    width: inherit;
+    height: 40vh;
+	border: 0;
+	font-size: medium;
+	color:blue;
+}
+
+section p{
+	padding: 10vh 30vh;
+	font-size: large;
+	color:darkblue;
+}
+.botones{
+	padding: 0vh 30vh;
+}
+
+section button:first-child {
+}
+section button:nth-child(2){
+	margin: 0vh 10vh
+}
+
+aside img{
+	height: auto;
+	width: 20vw;
+}
+
+aside{
+	width: 30vw;
+}
+aside h3 , aside p{
+	text-align: center;
+	padding: 2vh;
+	height: 2vh;
+}
+
+aside textarea{
+	resize: none;
+	width: 30vw;
+    border-color: transparent;
+    background-color: rgba(255, 232, 217, 0.76);
+    height: 60vh;
+    border-radius: 4vh;
+    text-align: center;
 	color: blue;
-	text-decoration: none;
+	font-size: large;
 }
-
-/*imagen*/
-.chicos {
-		width: 100% ;
-		height: 50vh ;
-		display: block;
-
-}
-
-.presionado{
-	text-decoration: underline;
-}
-.logo {
-	position: absolute;
-	right: 15vh;
-	height: 15vh;
-	bottom: 43vh;
-
-
-}
-
-/* cuerpo */
-
-.segundaParte{
-	display: flex;
-
+aside button {
+    height: 5vh;
+    width: 9vw;
+    border-radius: 2vh;
 }
 
 
-
-li{
-	list-style:  none;
+/*footer*/
+footer{
+	height: 10vh;
+	background-color: rgb(255, 255, 255);
 }
-
-h3{
-	font-size: 2vh;
-	font-style:italic;
-}
-
-.informacion {
-	width: 75%;
-	padding: 20px;
-}
-
-.informacion h3{
-	padding: 20px 0px 0px 0px;
-}
-
-.correo{
-	text-decoration:none;
-	background: #ffff;
-	color: #005185;
-}
-
-.navegador a{
-	display: block;
-	width: 25%;
-	padding: 5vh 15vh;
-	
-}
-
-
-.informacion p{
-	margin: 20px 0px 0px 50px;
-	line-height:20px;
-
+footer p{
+	text-align: start;
+	padding: 4vh;
+	color: rgb(233, 171, 171);
 }

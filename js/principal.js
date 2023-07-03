@@ -20,7 +20,8 @@ btnEncriptar.addEventListener("click", function () {
     }else{
         
     desactivar.style.display = "none";
-    activar.style.display = "block";
+    activar.style.display = "flex";
+    
 
     let textoCodificar = encriptarTexto();
     textoCodificado.value = textoCodificar;   
